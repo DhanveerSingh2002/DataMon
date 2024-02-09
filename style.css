@@ -20,7 +20,7 @@ body
 
 #sBar
 {
-    background-color: #d9fa9e;
+    background-color: rgba(3, 223, 239, 0.334);
     text-align: center;
     outline: none;
     border: 2px solid cadetblue;
@@ -44,7 +44,7 @@ body
 #btn
 {
     color: black;
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.755);
     font-size: 1.8em;
     margin-left: -5px;
     border: 2px solid grey;
@@ -79,13 +79,14 @@ body
     width: 300px;
     text-align: center;
     border-radius : 10px;
-    background: linear-gradient(30deg, rgba(7, 37, 236, 0.5) 10%, rgba(239, 133, 3, 0.7) 80%);
+    background: linear-gradient(0deg, rgba(186, 7, 236, 0.5) 50%, rgba(7, 193, 230, 0.7) 120%);
 }
 
 #name
 {
+    color: rgb(162, 28, 28);
     font-size: 2.3em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Trirong", serif;
 }
 
 #image
@@ -104,7 +105,7 @@ body
 #types 
 {
     font-size: 1.1em;
-    color: white;
+    color: rgb(242, 226, 8);
     margin-top: 5px;
     margin-bottom: 5px;
 }
