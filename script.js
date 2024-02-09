@@ -56,7 +56,7 @@ btn.addEventListener("click",async () => {
         container.style.display = 'block';
 
         const data = await response.json();
-        console.log(data);
+        //console.log(data);
         photo.src = data.sprites.front_default;
         Pokename.innerHTML = capitalizeFirstLetter(data.name);
 
