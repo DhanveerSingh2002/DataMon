@@ -113,7 +113,7 @@ btn.addEventListener("click",async () => {
         warning.innerHTML = "Sorry, no data found!!!";
         warning.style.color = 'red';
         setTimeout(() => {
-            warning.innerHTML = "Welcome to MonsterPedia. Here you can find data on any Pokémon.";
+            warning.innerHTML = "Welcome to MonsterPedia.";
             warning.style.color = 'black';
         }, 2000);
         sBar.value = "";
