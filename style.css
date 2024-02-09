@@ -64,6 +64,8 @@ body
 
 #warning
 {
+    font-size: 2.5em;
+    font-family: "Audiowide", sans-serif;
     font-weight: lighter;
     margin-top: 200px;
 }
